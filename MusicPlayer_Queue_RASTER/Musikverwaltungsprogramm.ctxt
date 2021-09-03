@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Musikverwaltungsprogramm
+comment0.text=\r\n\ Die\ Klasse\ Musikverwaltungsprogramm\ soll\ eine\ Software\ zum\ Verwalten\ und\ \r\n\ Abspielen\ von\ Musikdateien\ simulieren.\r\n\ In\ dieser\ Version\ soll\ es\ m\u00F6glich\ sein\ aus\ einem\ Array\r\n\ von\ Objects\ der\ Klasse\ Lied\ eine\ Playlist\ zusammenzustellen.\r\n\ Eine\ Methode\ play()\ soll\ das\ Abspielen\ simulieren.\r\n\ \r\n\ @author\ THor\r\n\ @version\ 1\r\n
+comment1.params=
+comment1.target=Musikverwaltungsprogramm()
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Musikverwaltungsprogramm\r\n
+comment2.params=pTitel\ pInterpret\ pDauer\ pAnzahlLieder
+comment2.target=void\ neuesAlbumVerwalten(java.lang.String,\ java.lang.String,\ int,\ int)
+comment2.text=\r\n\ Mit\ der\ Methode\ neuesLiedVerwalten\ wird\ ein\ neues\ Lied-Object\ angelegt\ und\ \r\n\ in\ ein\ Lied[]\ hinzugefuegt.\r\n\r\n\ @param\ pTitel\ Ein\ Parameter\r\n\ @param\ pInterpret\ Ein\ Parameter\r\n\ @param\ pDauer\ Ein\ Parameter\r\n
+comment3.params=
+comment3.target=void\ play()
+comment3.text=\r\n\ Die\ Methode\ play\ spielt\ alle\ Lieder\ der\ Playlist\ in\ Reihenfolge\ ab.\ \r\n\ Das\ Abspielen\ wird\ durch\ eine\ Ausgabe\ auf\ der\ Konsole\ simuliert.\r\n
+comment4.params=
+comment4.target=void\ stop()
+comment4.text=\r\n\ Methode\ stop\ stoppt\ das\ aktuelle\ Lied\r\n\r\n
+numComments=5
