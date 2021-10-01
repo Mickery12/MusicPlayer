@@ -7,7 +7,7 @@
  */
 public class Album
 {
-    // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
+    private Lied meinLied;
     private Lied[] lied;
     /**
      * Konstruktor für Objekte der Klasse Album
@@ -16,10 +16,11 @@ public class Album
     {
         waehleAlbum(pTitel, pInterpret, pDauer, pAnzahlLieder);
     }
-   
+
     public void waehleAlbum(String pTitel, String pInterpret, int pDauer, int pAnzahlLieder){
-        
+
     }
+
     /**
      * Wenn das Album nicht leer ist, gibt die Methode liedAbspielen auf der 
      * Konsole das erste Lied in dem Album. Ansonsten wird ein Hinweis 
