@@ -31,8 +31,8 @@ public class Album extends List
 
     
 
-    public static void neuesLiedVerwalten(String pTitel, String Interpret, int pDauer) {
-        lieder.append(new Lied(pTitel, pInterpret, pDauer));
+    public static void neuesLiedVerwalten(String pTitel, String pInterpret, String pAlbum, int pDauer) {
+        lieder.append(new Lied(pTitel, pInterpret, pAlbum, pDauer));
     }
 
     /**

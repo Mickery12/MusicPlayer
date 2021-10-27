@@ -29,6 +29,9 @@ public class Lied
       return (pTitel + ";" + pAlbum + ";" + pInterpret + ";" + pDauer + ";");
     }
     
+    public String getTitel(){
+        return titel;
+    }
 
     public String toString(){
         return (titel + " - " + interpret + ", (" + dauer + " sec)");

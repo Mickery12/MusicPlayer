@@ -36,12 +36,15 @@ public class Musikverwaltungsprogramm extends List
     public static void neuesLiedVerwalten(String pTitel, String pInterpret, String pAlbum, int pDauer) {
         alben.toFirst();
         while(alben.isEmpty() == false) {
-            Album tmp; tmp = alben.getContent();
-            if(tmp.getTitel == pAlbum) {break;}
+            Album tmp; 
+            tmp = alben.getContent();
+            if(tmp.getTitel() == pAlbum) {
+                break;
+            }
             tmp.neuesLiedVerwalten(pTitel, pInterpret, pAlbum, pDauer);
         }
-        
-        alben.neuesLiedVerwalten(pTitel, pInterpret, pDauer);
+
+        alben.getContent().neuesLiedVerwalten(pTitel, pInterpret, pAlbum, pDauer);
     }
 
     public void zeigealben() {
@@ -54,12 +57,12 @@ public class Musikverwaltungsprogramm extends List
      * Die Methode play spielt alle Lieder der Playlist in Reihenfolge ab. 
      * Das Abspielen wird durch eine Ausgabe auf der Konsole simuliert.
      */
-    public void play(Album pAlbum){
-        int tmp;
+    public void play(){
+        /**int tmp;
         tmp = Album.gibAnzahlLieder();
         for(int i = 0; i < tmp; i++) {
             Album.liedAbspielen(i);
-        }
+        }*/
     }
 
     /**
@@ -67,5 +70,33 @@ public class Musikverwaltungsprogramm extends List
      *
      */
     public void stop(){
+    }
+
+    /**
+     * Methode delete löscht das ausgewählte Lied aus der Playlist
+     *
+     */
+    public void delete(){
+    }
+
+    /**
+     * Methode previous spielt das vorherige Lied ab
+     *
+     */
+    public void previous(){
+    }
+
+    /**
+     * Methode next spielt das nächste Lied ab
+     *
+     */
+    public void next(){
+    }
+
+    /**
+     * Methode queue fügt ein neues Lied der Playlist hinzu
+     *
+     */
+    public void queue(){
     }
 }
