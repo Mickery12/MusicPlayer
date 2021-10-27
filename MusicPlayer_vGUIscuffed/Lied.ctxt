@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=Lied
-comment0.text=\r\n\ Die\ Klasse\ Lied\ repraesentiert\ ein\ Lied\ mit\ \r\n\ den\ Attributen\ Titel,\ Interpret\ und\ Dauer\ in\ Sekunden.\r\n\ \r\n\ @author\ THor)\r\n\ @version\ 1\r\n
-comment1.params=pName\ pInterpret\ pDauer
-comment1.target=Lied(java.lang.String,\ java.lang.String,\ int)
-comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Lied\r\n
-comment2.params=
-comment2.target=java.lang.String\ toString()
-numComments=3
