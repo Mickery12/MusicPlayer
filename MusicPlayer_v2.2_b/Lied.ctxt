@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Lied
+comment0.text=\r\n\ Die\ Klasse\ Lied\ repraesentiert\ ein\ Lied\ mit\ \r\n\ den\ Attributen\ Titel,\ Album,\ Interpret\ und\ Dauer\ in\ Sekunden.\r\n\ \r\n\ @author\ Acidic)\r\n\ @version\ 2.2\r\n
+comment1.params=pTitel\ pAlbum\ pInterpret\ pDauer
+comment1.target=Lied(java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Lied\r\n
+comment2.params=pTitel\ pAlbum\ pInterpret\ pDauer
+comment2.target=java.lang.String\ getLied(java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment3.params=
+comment3.target=java.lang.String\ getTitel()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5
