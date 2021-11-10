@@ -1,0 +1,34 @@
+Album: Please please me;The Beatles;1965;14;
+
+Lied: I Saw Her Standing There;The Beatles;The Beatles;173;
+Lied: Misery;The Beatles;The Beatles;111;
+Lied: Anna (Go to Him);The Beatles;The Beatles;178;
+Lied: Chains;The Beatles;The Beatles;143;
+Lied: Boys;The Beatles;The Beatles;144;
+Lied: Ask Me Why;The Beatles;The Beatles;144;
+Lied: Please Please Me;The Beatles;The Beatles;119;
+Lied: Love Me Do;The Beatles;The Beatles;141;
+Lied: P.S. I Love You;The Beatles;The Beatles;124;
+Lied: Baby It's You;The Beatles;The Beatles;160;
+Lied: Do You Want to Know a Secret?;The Beatles;The Beatles;116;
+Lied: A Taste of Honey;The Beatles;The Beatles;123;
+Lied: There's a Place;The Beatles;The Beatles;111;
+Lied: Twist and Shout;The Beatles;The Beatles;152;
+--------------------------------------------------
+
+Album: With the Beatles;The Beatles;1987;14;
+
+Lied: It Won't Be Long;The Beatles;The Beatles;133;
+Lied: All I've Got to Do;The Beatles;The Beatles;123;
+Lied: All My Loving;The Beatles;The Beatles;128;
+Lied: Don't Bother Me;The Beatles;The Beatles;148;
+Lied: Little Child;The Beatles;The Beatles;166;
+Lied: Till There Was You;The Beatles;The Beatles;134;
+Lied: Please Mister Postman;The Beatles;The Beatles;154;
+Lied: Roll Over Beethoven;The Beatles;The Beatles;165;
+Lied: Hold Me Tight;The Beatles;The Beatles;152;
+Lied: You Really Got a Hold on Me;The Beatles;The Beatles;181;
+Lied: I Wanna Be Your Man;The Beatles;The Beatles;120;
+Lied: Devil in Her Heart;The Beatles;The Beatles;146;
+Lied: Not a Second Time;The Beatles;The Beatles;127;
+Lied: Money (That's What I Want);The Beatles;The Beatles;171;
