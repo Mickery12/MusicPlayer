@@ -1,0 +1,34 @@
+import java.io.*;
+public class Reader{
+
+    public static void main(MVP player){
+        BufferedReader br = null;
+        String line;
+
+        try {
+
+            br = new BufferedReader(new FileReader("Album_mit_Liedern.txt"));
+
+            while((line = br.readLine()) != null){
+
+                if(line.startsWith("A")){
+                    String tmp; tmp = line;
+                    String split[] = tmp.split(";");
+                        //System.out.println(split[0].substring(7) + " " + split[1] + " " + Integer.parseInt(split[2]) + " " + Integer.parseInt(split[3]));
+                    player.newAlbum(split[0].substring(7), split[1], Integer.parseInt(split[2]), Integer.parseInt(split[3]));
+                }
+
+                if(line.startsWith("L")){
+                    String tmp; tmp = line;
+                    String split[] = tmp.split(";");
+                        //System.out.println(split[0].substring(6) + " " + split[1] + " " + split[2] + " " + Integer.parseInt(split[3]));
+                    player.newLied(split[0].substring(6), split[1], Integer.parseInt(split[2]));
+                }
+
+            }
+        } 
+        catch(IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
